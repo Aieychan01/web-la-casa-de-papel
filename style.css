@@ -1,0 +1,110 @@
+
+
+body { 
+    background-color: red; 
+     font-family: 'Times New Roman', Times, serif;
+}
+
+#imagem {
+    width: 1240px;
+    height: 600px;
+    background-image: url('imagem/pri.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+header {
+    display: flex;
+    margin-left: 60px;
+}
+
+header img {
+    margin-top: 22px;
+    border-radius: 4px;
+}
+
+.de{
+    width: 50px;
+    height: 35px;
+    background-color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assitir h1 {
+    display: flex;
+}
+
+.letra, .de {
+    margin-left: 15px;
+}
+
+nav {
+    margin: 48px 0 0 90px;
+    font-weight: bolder;
+}
+
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.trem, a:hover{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.assitir {
+    color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 0.5);
+    width: 465px;
+    height: 200px;
+    border: #FFFFFF 1px solid;
+    margin: 185px 0 0 70px;
+    padding: 25px 0 0 15px;
+}
+
+.assitir p {
+     font-size: 17px;
+}
+
+.see {
+    background-color: black;
+    border: #FFFFFF 1px solid;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 30px 0 0 228px;
+}
+
+.trailer {
+    background-color: red;
+    width: 180px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    border: #FFFFFF solid 1px;
+}
+
+.trailer:hover, .see:hover {
+    background-color: rgba(155, 65, 65, 0.6);
+}
+
+.assitir h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
